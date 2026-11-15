@@ -1,0 +1,9 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "preferredVersions": { "php": "8.2", "wp": "latest" },
+  "steps": [
+    { "step": "setSiteOptions", "options": { "blogname": "Anassa Holidays", "WPLANG": "el", "blog_public": "0", "permalink_structure": "/%postname%/" } },
+    { "step": "installTheme", "themeData": { "resource": "url", "url": "https://raw.githubusercontent.com/NikitasT2003/anassa-wp-playground/main/anassa.zip" }, "options": { "activate": true } }
+  ]
+}
